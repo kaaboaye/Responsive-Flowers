@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		3B0CF87F24953F8B0084F92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF87E24953F8B0084F92F /* AppDelegate.swift */; };
 		3B0CF88124953F8B0084F92F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF88024953F8B0084F92F /* SceneDelegate.swift */; };
-		3B0CF88324953F8B0084F92F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF88224953F8B0084F92F /* ContentView.swift */; };
+		3B0CF88324953F8B0084F92F /* FlowerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF88224953F8B0084F92F /* FlowerListView.swift */; };
 		3B0CF88524953F8B0084F92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CF88424953F8B0084F92F /* Assets.xcassets */; };
 		3B0CF88824953F8B0084F92F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CF88724953F8B0084F92F /* Preview Assets.xcassets */; };
 		3B0CF88B24953F8B0084F92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CF88924953F8B0084F92F /* LaunchScreen.storyboard */; };
+		3B0CF89324953FB80084F92F /* FlowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF89224953FB80084F92F /* FlowerModel.swift */; };
+		3B0CF895249545660084F92F /* FlowerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF894249545660084F92F /* FlowerDetails.swift */; };
+		3B0CF8972495494F0084F92F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF8962495494F0084F92F /* CheckoutView.swift */; };
+		3B0CF89924954A600084F92F /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF89824954A600084F92F /* CartStore.swift */; };
+		3B0CF89B24955F280084F92F /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CF89A24955F280084F92F /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B0CF87B24953F8B0084F92F /* Responsive-Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Responsive-Flowers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0CF87E24953F8B0084F92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B0CF88024953F8B0084F92F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B0CF88224953F8B0084F92F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B0CF88224953F8B0084F92F /* FlowerListView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FlowerListView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		3B0CF88424953F8B0084F92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0CF88724953F8B0084F92F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B0CF88A24953F8B0084F92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B0CF88C24953F8B0084F92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0CF89224953FB80084F92F /* FlowerModel.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FlowerModel.swift; sourceTree = "<group>"; tabWidth = 2; };
+		3B0CF894249545660084F92F /* FlowerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetails.swift; sourceTree = "<group>"; };
+		3B0CF8962495494F0084F92F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		3B0CF89824954A600084F92F /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		3B0CF89A24955F280084F92F /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				3B0CF87E24953F8B0084F92F /* AppDelegate.swift */,
 				3B0CF88024953F8B0084F92F /* SceneDelegate.swift */,
-				3B0CF88224953F8B0084F92F /* ContentView.swift */,
+				3B0CF88224953F8B0084F92F /* FlowerListView.swift */,
+				3B0CF894249545660084F92F /* FlowerDetails.swift */,
 				3B0CF88424953F8B0084F92F /* Assets.xcassets */,
 				3B0CF88924953F8B0084F92F /* LaunchScreen.storyboard */,
 				3B0CF88C24953F8B0084F92F /* Info.plist */,
 				3B0CF88624953F8B0084F92F /* Preview Content */,
+				3B0CF89224953FB80084F92F /* FlowerModel.swift */,
+				3B0CF8962495494F0084F92F /* CheckoutView.swift */,
+				3B0CF89824954A600084F92F /* CartStore.swift */,
+				3B0CF89A24955F280084F92F /* Money.swift */,
 			);
 			path = "Responsive-Flowers";
 			sourceTree = "<group>";
@@ -146,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0CF89324953FB80084F92F /* FlowerModel.swift in Sources */,
 				3B0CF87F24953F8B0084F92F /* AppDelegate.swift in Sources */,
+				3B0CF8972495494F0084F92F /* CheckoutView.swift in Sources */,
+				3B0CF89924954A600084F92F /* CartStore.swift in Sources */,
 				3B0CF88124953F8B0084F92F /* SceneDelegate.swift in Sources */,
-				3B0CF88324953F8B0084F92F /* ContentView.swift in Sources */,
+				3B0CF895249545660084F92F /* FlowerDetails.swift in Sources */,
+				3B0CF89B24955F280084F92F /* Money.swift in Sources */,
+				3B0CF88324953F8B0084F92F /* FlowerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
